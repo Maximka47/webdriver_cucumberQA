@@ -24,9 +24,6 @@ class loginPage extends Page {
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    async login () {
-        await this.btnSubmit.click();
-    }
 
     /**
      * overwrite specific options to adapt it to page object
