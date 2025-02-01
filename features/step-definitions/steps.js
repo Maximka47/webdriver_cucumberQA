@@ -11,7 +11,7 @@ Given(/^I am on the (\w+) page$/, async (page) => {
 });
 
 When(/^I login without username and password$/, async () => {
-    await loginPage.login()
+    await loginPage.btnSubmit.click()
 });
 
 Then(/^I should see a message saying (.*)$/, async (message) => {
